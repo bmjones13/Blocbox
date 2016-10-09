@@ -1,0 +1,7 @@
+"cd ~/"
+"touch .bash_profile"
+"open -e .bash_profile"
+"..bash_profile"
+alias subl='open -a "Sublime Text"'
+
+
