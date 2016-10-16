@@ -67,6 +67,7 @@
    .container {
      width: 1170px;
    }
+    
     /* HEADER */
     header {
       color:#110213;
@@ -137,5 +138,7 @@
 
 @media (min-width: 2000px) { 
    /* really big screens */
-
+   header .hero h1 {
+      font-size:108px;
+    }
 }
