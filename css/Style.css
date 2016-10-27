@@ -84,9 +84,7 @@
     header nav {
       padding:1em 0;
       background:#E8854F;
-      max-width: 1443;
-      
-
+      /*max-width: 1443px;*/
     }
     header nav ul {
       display:inline;
@@ -261,7 +259,7 @@
  }
  
   /*Image posts */
-  .box {
+  .box-dashboard {
     display:block;
    height:200px;
    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
