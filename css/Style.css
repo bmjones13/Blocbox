@@ -403,6 +403,7 @@
  .dashboard {
    background:#FDFDF7;
  }
+ /* LEFT GREEN COLUMN */
  .left-nav {
    height: 100vh;
    width:14.66666667%;
@@ -420,6 +421,8 @@
  }
  .left-nav .items {
    padding:0 6%;
+  }
+
  }
  .left-nav .items p {
    font-weight: 600;
@@ -428,21 +431,197 @@
    color: #e8854f;
    line-height: 15px;
  }
+
  .left-nav .items ul {
    margin:0 0 40px;
    padding:0;
+
+
  }
  .left-nav .items ul li {
    list-style-type: none;
    margin-bottom: 15px;
+
  }
  .left-nav .items ul li a {
    color:#359668;
    text-decoration: none;
    font-weight: 100;
  }
+ .left-nav .active {
+  background-color: #F5C5AB;
+ }
+
+ /* ICONS */
  .left-nav .items ul li a i {
    width:16px;
    text-align: center;
    margin-right:8px;
+   color:#341139;
  }
+
+ /* LEFT NAVBAR SETTINGS */
+ /* BOTTOM BAR */
+ .left-nav .settings {
+   position:absolute;
+   width:100%;
+   bottom:0;
+   left:0;
+   right:0;
+   padding:10px 0;
+ }
+ .left-nav .settings img {
+   height:35px;
+   width:35px;
+   /* NESTLES AVATAR IN A CIRCLE */
+   border-radius: 50%;
+   margin-left:10px;
+   display: inline-block; /* SAME LINE WITH NAME */
+ }
+ /* AVATAR NAME */
+ .left-nav .settings p {
+   display: inline-block;
+   vertical-align: top;
+   padding-top: 8px;
+   font-weight: 400;
+   margin:0 0 0 10px;
+   color:#359668;
+ }
+ /* GEAR ICON */
+ .left-nav .settings a {
+   color:#341139;
+   text-decoration: none;
+   text-align: right;
+   float: right;
+   margin-right:10px;
+   margin-top:8px;
+ }
+
+ /* CONTENT */
+ .content {
+   padding:6em 1% 1.5em;
+   float:right;
+   width:98%;
+   position: relative;
+ }
+ .content .header {
+   margin:0 1% 20px;
+ }
+ /* ITEMS */
+ .content .header h1 {
+   font-family: "Corben", Palatino, Book Antiqua, serif;
+   font-weight: 100;
+   margin:0 0 30px;
+   font-size: 36px;
+   color: #E8854F;
+   line-height: 44px;
+   float: left;
+   display:inline-block;
+ }
+ /* ADD BUTTON*/
+ .content .header > a {
+   float:right;
+ }
+ .content-item {
+   width:96%;
+   margin:0 2% 25px;
+   float:left;
+   display:block;
+ }
+ /* WHITE BOXES */
+ .item-box {
+   display:block;
+   height:230px;
+   background: #FFFFFF;
+   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+   position: relative;
+   overflow: hidden;
+   padding:20px;
+ }
+
+ /* Larger Mobile Devices */
+ @media (min-width:460px) {
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:90%;
+     position: relative;
+   }
+  /* columns will be two for smaller screens */
+   .content-item {
+     width:46%;
+     margin:0 2% 25px;
+     float:left;
+     display:block;
+   }
+ }
+/* Tablets */
+ @media (min-width:768px) {
+   .content {
+     padding:1.5em 5%;
+     float:right;
+     width:90%;
+     position: relative;
+   }
+   .content > .container {
+     width:700px;
+   }
+   .content-item {
+     width:31.33333%;
+     margin:0 1% 25px;
+   }
+ }
+/* Laptops and Desktops */
+ @media (min-width:992px) {
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:83.33333333%;
+     position: relative;
+   }
+   .content > .container {
+     width:auto;
+   }
+   .content-item {
+     width:23%;
+     margin:0 1% 25px;
+   }
+ }
+
+ .item-box > img {
+   position:absolute;
+   height:100%;
+   width:auto;
+   top:0;
+   left:0;
+   right:0;
+ }
+ 
+/* Subheads in the boxes */
+ .item-box h2 {
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 17px;
+   margin:0;
+ }
+ .item-box h2 a {
+   color: #359668;
+   text-decoration: none;
+ }
+ /* favicons */
+ .item-box h2 img {
+   width:18px;
+   height:18px;
+   position:relative;
+   top:2px;
+   margin-right:5px;
+ }
+ .item-box p {
+   font-size: 14px;
+   color: #110213;
+   line-height: 18px;
+   margin:5px 0 0;
+ }
+
+
