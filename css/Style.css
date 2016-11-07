@@ -450,6 +450,7 @@
  }
  .left-nav .active {
   background-color: #F5C5AB;
+  padding: 2px;
  }
 
  /* ICONS */
