@@ -344,18 +344,28 @@
   margin-top: 20px;
  }
 
+/* call to action */
  .call-to-action {
-  text-align: center;
-  
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 30px;
+
+ }
+
+.call-to-action h2 {
+  color: #e8854f;
 }
 
-
+.call-to-action p {
+  text-align: center;
+  color: #341139;
+}
 
  /* FOOTER */
  footer {
    background-color: #341139;
    color: #FFFFFF;
-   height: 150px;
    position: relative;
    overflow: hidden;
    z-index: 0;

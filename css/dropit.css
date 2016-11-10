@@ -21,17 +21,19 @@
     position: absolute;
     top: 100%;
     right: 0; /* dropdown left or right */
-    z-index: 1;
+    z-index: 1000;
     display: none;
     min-width: 100px;
     list-style: none;
 	padding: 20px;
 	margin: 20px 0 0;
 }
-.dropit .dropit-open .dropit-submenu { display: block; }
+.dropit .dropit-open .dropit-submenu { display: block; 
     background: #FFFFFF;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
    border-radius: 4px;
+
+}
 
 
 /* Little triangle */
@@ -50,6 +52,7 @@
  .dropit .dropit-open .dropit-submenu li {
   display: block;
   margin-bottom: 20px;
+  color:#341139;
  }
  .dropit .dropit-open .dropit-submenu li:last-child {
   margin-bottom: 0px;
