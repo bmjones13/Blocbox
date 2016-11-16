@@ -449,6 +449,33 @@
    top: 15px;
  }
 
+@media (min-width:992px) {
+   .left-nav {
+     height: 100vh;
+     width:14.66666667%;
+     color:#341139;
+     background: #e9fcf3;
+     
+     float:left;
+     position: fixed;
+     display:block;
+     transform: translate(0,0);
+     -webkit-transform: translate(0,0); /** Chrome & Safari **/
+     -o-transform: translate(0,0); /** Opera **/
+     -moz-transform: translate(0,0); /** Firefox **/
+   }
+   .left-nav.open {
+     width:14.66666667%;
+     transform: translate(0,0);
+     -webkit-transform: translate(0,0); /** Chrome & Safari **/
+     -o-transform: translate(0,0); /** Opera **/
+     -moz-transform: translate(0,0); /** Firefox **/
+   }
+   .hamburger {
+     display:none;
+   }
+ }
+
 
  .left-nav .site-logo {
    padding:20px 0;
