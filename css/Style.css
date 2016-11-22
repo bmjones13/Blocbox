@@ -411,6 +411,7 @@
    height: 100%;
    width:280px;
    position: absolute;
+   background: #e9fcf3;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -565,7 +566,7 @@
     bottom: 100%;
     top: inherit;
  }
- .left-nav .settings.dropit .dropit-submenu:after {
+ .left-nav .settings .dropit .dropit-submenu:after {
      top: 100%;
      bottom: inherit;
 

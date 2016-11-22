@@ -37,18 +37,34 @@
 
 
 /* Little triangle */
-.dropit .dropit-open .dropit-submenu:after {
+.dropit .menu-add .dropit-open .dropit-submenu:after {
   content: " ";
   position: absolute;
   border-style: solid;
-  border-width: 8px 8px 0;
+  border-width: 0 8px 8px;
   border-color: #FFFFFF transparent;
   display: block;
   width: 0;
   z-index: 1;
-  bottom: -8px;
+  top: -8px;
   right: 10px;
  }
+ 
+ .dropit .menu-cog .dropit-open .dropit-submenu:after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 0 8px 8px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: 8px;
+  right: 10px;
+ }
+
+
+
  .dropit .dropit-open .dropit-submenu li {
   display: block;
   margin-bottom: 20px;
