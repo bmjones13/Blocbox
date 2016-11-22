@@ -41,12 +41,12 @@
   content: " ";
   position: absolute;
   border-style: solid;
-  border-width: 0 8px 8px;
+  border-width: 8px 8px 0;
   border-color: #FFFFFF transparent;
   display: block;
   width: 0;
   z-index: 1;
-  top: -8px;
+  bottom: -8px;
   right: 10px;
  }
  .dropit .dropit-open .dropit-submenu li {
@@ -63,3 +63,4 @@
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight:100;
  }
+
