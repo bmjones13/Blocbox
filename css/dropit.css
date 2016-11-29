@@ -49,11 +49,16 @@
   top: -8px;
   right: 10px;
  }
+
+
+/* Little triangle for .menu-cog */
+.dropit.menu-cog .dropit-open .dropit-submenu:after {
+  border-width: 8px 8px 0 8px;
+  bottom: -8px;
+  top: auto;
+}
  
  
-
-
-
  .dropit .dropit-open .dropit-submenu li {
   display: block;
   margin-bottom: 20px;
